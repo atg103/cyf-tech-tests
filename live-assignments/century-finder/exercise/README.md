@@ -21,7 +21,7 @@ A working solution should correctly determine that:
 
 ## How to integrate the solution
 
-The file `app/js/century.js` contains the declaration of the function that you will need to implement, along with a helper function you should use for formatting the ordinal century number as a word.
+The file `app/js/century.js` contains the declaration of the function that you will need to implement, along with a helper function you should use for formatting the ordinal century number as a word.  The function accepts a JavaScript Date object as a parameter and should return a string representation of the century (e.g., the return value for the first example above should be "18th").
 
 You should place your unit tests in a directory named `spec` and the file extension should be `.test.js` to ensure that Jest can locate and run the tests correctly.  Tests can then be run by executing `npm test`.  
 
